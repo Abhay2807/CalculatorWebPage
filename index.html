@@ -31,7 +31,8 @@
     updateCalculation('3');
   ">3</button>
 
-  <button onclick="
+  <button class="op"
+  onclick="
     updateCalculation(' + ');
   ">+</button>
   </div>
@@ -49,7 +50,7 @@
     updateCalculation('6');
   ">6</button>
 
-  <button onclick="
+  <button class="op" onclick="
     updateCalculation(' - ');
   ">-</button>
   </div>
@@ -67,7 +68,7 @@
         updateCalculation('9');
       ">9</button>
 
-      <button onclick="
+      <button  class="op" onclick="
         updateCalculation(' * ');
       ">*</button>
   </div>
@@ -88,7 +89,7 @@
     saveCalculation();
   ">=</button>
 
-  <button onclick="
+  <button class="op" onclick="
     updateCalculation(' / ');
   ">/</button>
   
@@ -97,15 +98,15 @@
   <div class="row5">
   
 
-    <button  onclick="
+    <button class="op"  onclick="
     updateCalculation('^')";>
     XOR</button>
 
-    <button  onclick="
+    <button class="op" onclick="
     updateCalculation('%')";>
     Mod</button>
 
-    <button  onclick="
+    <button class="op" onclick="
     updateCalculation('**')";>
     Pow</button>
 
